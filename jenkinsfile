@@ -1,0 +1,14 @@
+node {
+    stage('git checkout') {
+    echo 'this is git checkout'
+    }
+    stage('build') {
+    echo 'this is build'
+    }
+    stage('test') {
+    echo 'this is test'
+    }
+    stage('deploy') {
+    echo 'this is deploy'
+    }
+}
